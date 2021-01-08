@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+#main_cover {
+  background-image: 
+  linear-gradient(
+      rgba(255,255,255,.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("./brookings2.png");
+  /* Image is centered vertically and horizontally at all times */
+
+  /* Image doesn't repeat */
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 10em;
+}   
+
+.hero-image{
+  max-height: 120px;
+  max-width: 100%;
+}
+body{
+  font-family: 'Oswald', sans-serif;
+
+}
+#hero-jumbo{
+  text-align: center;
+  background-color: transparent;
+}
+
+#ctaCall{
+  margin: 1em;
+}
+#ctaCall.btn:disabled{
+  opacity: 1;
+} 
+.est-btn-inverted{
+  background-color:  rgb(6,29,63);
+  border-color:rgb(6,29,63);
+  color: white;
+  transition: none;
+}
+.est-btn-inverted:hover{
+  color: white;
+  background-color: rgb(6,29,63);
+  border-color: rgb(6,29,63);
+
+}
+.est-btn-inverted:active, .est-btn-inverted:focus{
+  color: white;
+  background-color: rgb(6,29,63);
+  border-color: rgb(6,29,63);
+  box-shadow: none;
+  -webkit-box-shadow: none;
+
+}
+.est-btn-inverted:not(:disabled):not(.disabled).active, .est-btn-inverted:not(:disabled):not(.disabled):active{
+  color: white;
+  background-color: rgb(6,29,63);
+  border-color: rgb(6,29,63);
+  outline: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus{
+  box-shadow: none;
+}
+
+#ctaFaqs .est-btn-inverted{
+  min-width: 200px;
+  margin: 1em;
+}
+.hopskotch.row:first{
+  padding-left: 0;
+}
+.hopskotch .col-lg{
+  padding: 1em 0;
+}
+
+.hopskotchImage{
+ background-size: cover;
+ background-position: center center;
+min-height: 400px;
+ max-width: 100%;
+
+}
+.hopskotchText p {
+  font-size: 20px;
+  font-weight: 100;
+}
+.hopskotchText h3,p{
+  padding-bottom: 1em;
+}
+.hopskotchText .oppsite{
+  text-align: right;
+}
+#apply{
+  background-image: url('./applynow.png');
+
+}
+#about{
+  background-image: url('./aboutus.png');
+
+}
+#additional{
+  background-image: url('./what_we_do.png'); 
+}

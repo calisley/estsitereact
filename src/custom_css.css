@@ -1,0 +1,8 @@
+#main_cover{
+    background-image:linear-gradient(
+        rgba(51, 51, 51, 0.75), 
+        rgba(51, 51, 51, 0.75)
+    ), url("/Users/calvin/Desktop/fuck_it/est-site/src/teamphoto.png");
+    background-size: cover;
+    background-position: fixed;
+}
