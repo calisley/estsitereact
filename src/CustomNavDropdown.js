@@ -1,13 +1,11 @@
 import { useState, useEffect } from "react";
 import React from "react";
-import { Link, useHistory } from "react-router-dom";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import { Link } from "react-router-dom";
 import Dropdown from "react-bootstrap/Dropdown";
 
-import "./customize_nav.css";
+import "./css/customize_nav.css";
 import Nav from "react-bootstrap/Nav";
 import NavItem from "react-bootstrap/NavItem";
-import NavLink from "react-bootstrap/NavLink";
 import { BsChevronDown, BsChevronUp } from "react-icons/bs";
 import Container from "react-bootstrap/esm/Container";
 

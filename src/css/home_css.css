@@ -6,7 +6,7 @@
       rgba(255,255,255,.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("./brookings2.png");
+    url("../img/brookings2.png");
   /* Image is centered vertically and horizontally at all times */
 
   /* Image doesn't repeat */
@@ -100,13 +100,13 @@ min-height: 400px;
   text-align: right;
 }
 #apply{
-  background-image: url('./applynow.png');
+  background-image: url('../img/applynow.png');
 
 }
 #about{
-  background-image: url('./aboutus.png');
+  background-image: url('../img/aboutus.png');
 
 }
 #additional{
-  background-image: url('./what_we_do.png'); 
+  background-image: url('../img/what_we_do.png'); 
 }

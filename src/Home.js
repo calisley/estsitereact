@@ -3,22 +3,17 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
-import logo from "./EST logo blue.png";
+import logo from "./img/EST logo blue.png";
 import { MdPhoneInTalk } from "react-icons/md";
-import aboutus from "./aboutus.png";
-import whatwedo from "./what_we_do.png";
-import apply from "./applynow.png";
-
-import "./home_css.css";
+import "./css/home_css.css";
 
 function Home() {
   return (
     <>
     <Container id="main_cover" fluid>
       <Jumbotron id="hero-jumbo">
-        <img className="hero-image" src={logo} />
+        <img className="hero-image" src={logo} alt="Brookings Hall"/>
         <h4>Washington University in St. Louis Emergency Support Team</h4>
         <Button fluid variant="danger" id="ctaCall" disabled>
           <MdPhoneInTalk /> IF THIS IS A MEDICAL EMERGENCY, DIAL (314) 935-5555
