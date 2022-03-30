@@ -1,10 +1,6 @@
-# Getting Started with Create React App
+</h1> Hello Webmasters of the future!</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+To start the app in development mode (to update the website), clone the repo locally. In terminal, navigate to whichever folder you've set the repo up in, and run:
 
 ### `npm start`
 
@@ -13,6 +9,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+
 
 ### `npm test`
 
