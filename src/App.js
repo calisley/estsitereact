@@ -6,6 +6,7 @@ import Home from "./Home.js";
 
 import "./css/customize_nav.css";
 import CustomNav from "./CustomNav";
+import Footer from "./Footer";
 
 function App() {
 
@@ -28,6 +29,8 @@ function App() {
           <Home />
         </Route>
       </Switch>
+      <Footer/>
+      
     </>
   );
 }

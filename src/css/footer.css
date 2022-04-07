@@ -1,0 +1,32 @@
+.footer{
+    min-height: 126px;
+    background-color:#082142;
+    color:#fff;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+.footer a{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+.main{
+    padding-left: 15px;
+    font-size: 1.2em;
+}
+.sub_dir{
+    padding-left: 1em;
+    font-size: 14px;
+}
+svg{
+    width: 24px;
+    height: 24px;
+    margin-right: .5em;
+}
+.socials svg{
+    margin-right: 0;
+
+}
+.footer .col-12{
+    margin-bottom: 1em;
+}
